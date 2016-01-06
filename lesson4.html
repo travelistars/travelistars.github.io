@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Excercise for lesson4</title>
+           <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lesson4.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ 
+    </head>
+    
+    <body>
+        <header>
+           <nav class="navbar navbar-inverse navbar-fixed-top"> <!-- topに固定　-->
+             <div class="container-fluid">
+                <div class="navbar navbar-header">
+                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarEexample">
+			    	<span class="sr-only">Toggle navigation</span>
+				    <span class="icon-bar"></span>
+			    	<span class="icon-bar"></span>
+			    	<span class="icon-bar"></span>
+			       </button>
+                   <a href="#" class="navbar-brand">Travelistars</a> <!-- brand name-->
+               </div>
+               <div class="collapse navbar-collapse navbar-right"> <!-- navigation全体的に右寄せ-->
+                <ul class="nav navbar-nav">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                    aria-haspopup="true" aria-expanded="false">Photos</a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Japan</a></li>
+                           <li><a href="#">Asia</a></li>
+                           <li><a href="#">USA</a></li>
+                           <li><a href="#">Europe</a></li>
+                           <li><a href="#">South America</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control input-sm" placeholder="検索キーワード">
+				</div>
+				<button type="submit" class="btn btn-default input-sm">検索</button>
+			</form>
+		  </div>
+        </div>
+            </nav>
+            <div class="name">Mai Kano</div>
+ 
+        </header>
+        <div id="icon" alt="Mai Kano">
+            <img src="maikano.jpg" alt="Mai Kano">
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="sidebar-nav affix">
+                    <ul class="nav">
+                      <li><a href="#">一番上</a></li>
+                      <li><a href="#bottom">一番下</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-10">
+                    <div class="main wrap">
+                        <div class="row">
+                            <div class="description col-xs-2">About</div>
+                            <div class="icon col-xs-10">
+                                <span class="glyphicon glyphicon-briefcase"> worked at Starbucks</span><br />
+                                <span class="glyphicon glyphicon-education"> Bachelor of Engeenering</span><br />
+                                <span class="glyphicon glyphicon-map-marker"> Fukuoka</span><br />
+                                <span class="glyphicon glyphicon-th"> <a href="https://github.com/travelistars">https://github.com/travelistars</a></span>
+                            </div>
+            
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="description col-xs-2">Comments</div>
+                            <div class="comments col-xs-10">
+                                <p>旅行が大好き。絶景が好き。青が好き。水が好き。<br/>
+                                一緒に魂揺さぶる経験探しましょう！</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="description col-xs-2">Applications</div>
+                            <div class="application col-xs-10">
+                                <p>ブートキャンプで作成したアプリケーションです。</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="photoicon">
+                            <ul>
+                                <li><a href="#"><img src="aurora.JPG" alt="Aurora"></a>
+                                <p>Aurora</p></li>
+                                <li><a href="#"><img src="turkey.JPG" alt="Turkey"></a>
+                                <p>Turkey</p></li>
+                                <li><a href="#"><img src="monumentvalley.jpg" alt="Monument Valley"></a>
+                                <p>Monument Valley</p></li>
+                                <li><a href="#"><img src="wadirum.JPG" alt="Wadirum"></a>
+                                <p>Wadirum</p></li>
+                            </ul>
+                        </div>
+                        </div>
+                        </div>
+            </div>
+        </div>
+        <footer>
+            <div class="copyright"> &copy; 2015 Travelistars Inc.</div>
+        </footer>
+
+    </body>
+</html>
